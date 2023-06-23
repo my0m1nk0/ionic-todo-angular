@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  sliderConfig={
+    spaceBetween:1,
+    slidesPerView:1.7
+  }
 
   constructor() {}
 
